@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class MyStatistics extends StatefulWidget {
-  const MyStatistics({super.key});
+class MyStatisticsOverview extends StatefulWidget {
+  const MyStatisticsOverview({super.key});
 
   @override
-  State<MyStatistics> createState() => _MyStatisticsState();
+  State<MyStatisticsOverview> createState() => _MyStatisticsOverviewState();
 }
 
-class _MyStatisticsState extends State<MyStatistics> {
+class _MyStatisticsOverviewState extends State<MyStatisticsOverview> {
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
