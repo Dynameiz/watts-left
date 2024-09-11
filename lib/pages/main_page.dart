@@ -21,19 +21,19 @@ class _MainPageState extends State<MainPage> {
           IconButton(
             icon: const Icon(Icons.more_vert, color: Colors.white,),
             onPressed: () {
-    
+              
             },
           ),
         ],
       ),
       body: const SingleChildScrollView(
         child: SafeArea(child: Column(
-        children: [
-          SizedBox(height: 16),
-          MyStatisticsOverview(),
-          MyForm(),
-        ],
-      )),
+          children: [
+            SizedBox(height: 16),
+            MyStatisticsOverview(),
+            MyForm(),
+          ],
+        )),
       ),
     );
   }
